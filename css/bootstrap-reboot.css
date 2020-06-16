@@ -25,6 +25,10 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+  blockquote {
+    font-style: italic;
+    color: #868e96;
+    margin: 0 0 1rem;}
 body {
   margin: 0;
   font-family: "Roboto", arial, sans-serif;
@@ -84,8 +88,6 @@ dd {
   margin-bottom: .5rem;
   margin-left: 0; }
 
-blockquote {
-  margin: 0 0 1rem; }
 
 dfn {
   font-style: italic; }
@@ -109,6 +111,7 @@ sub {
 
 sup {
   top: -.5em; }
+
 
 a {
   color: #dc3545;
